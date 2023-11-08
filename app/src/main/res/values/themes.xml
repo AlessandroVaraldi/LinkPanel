@@ -1,0 +1,16 @@
+<resources>
+    <!-- Tema principale dell'applicazione che non include una ActionBar -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- I colori primari utilizzati nel tema. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Altri colori e stili per personalizzare il tema dell'app. -->
+    </style>
+
+    <!-- Tema specifico per la Toolbar che sovrascrive i colori e altri stili per la Toolbar -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+</resources>

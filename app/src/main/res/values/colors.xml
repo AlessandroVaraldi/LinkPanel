@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- I colori di base della tua app -->
+    <color name="colorPrimary">#1E4918</color>
+    <color name="colorPrimaryDark">#163114</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorButtonBackground">#1E4918</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorToolbarBackground">#1E4918</color>
+    <color name="colorToolbarText">#FFFFFF</color>
+    <!-- Altri colori comuni per l'app -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
