@@ -5,12 +5,20 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <!-- Altri colori e stili per personalizzare il tema dell'app. -->
+        <item name="actionOverflowButtonStyle">@style/OverflowMenuButtonStyle</item>
     </style>
 
     <!-- Tema specifico per la Toolbar che sovrascrive i colori e altri stili per la Toolbar -->
     <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- Stile per il pulsante del menu di overflow. -->
+    <style name="OverflowMenuButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <!-- Definisci il colore dell'icona. -->
+        <item name="android:tint">@android:color/white</item>
+        <!-- Per Android 5.0 e versioni successive. -->
+        <item name="tint">@android:color/white</item>
     </style>
 </resources>

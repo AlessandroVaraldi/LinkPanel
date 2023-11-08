@@ -300,9 +300,13 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_clear_all) {
             showClearConfirmationDialog();
         } else if (id == R.id.action_add_button) {
-            addButton();
-        }
+            if(NUM_BUTTONS < 25){
+                addButton();
+            } else {
+                Toast.makeText(getApplicationContext(), "Massimo numero di pulsanti raggiunto!", Toast.LENGTH_LONG).show();
+            }
 
+        }
         return super.onOptionsItemSelected(item);
     }
 
