@@ -7,6 +7,14 @@
         android:id="@+id/action_edit_url"
         android:title="Modifica URL" />
     <item
+        android:id="@+id/move_up"
+        android:title="Sposta su" />
+
+    <item
+        android:id="@+id/move_down"
+        android:title="Sposta giù" />
+
+    <item
         android:id="@+id/delete_button"
         android:title="Rimuovi pulsante" />
 </menu>

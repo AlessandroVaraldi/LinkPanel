@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Link Panel</string>
+    <string name="allowedUrlCharacters"><![CDATA[^[a-zA-Z0-9:/?=&#.\\-_]*$]]></string>
+    <string name="maxButtonsAlert">Massimo numero di pulsanti raggiunto!</string>
+    <string name="clearTitle">Conferma Rimozione</string>
+    <string name="clearQuestion">Sei sicuro di voler rimuovere tutti i pulsanti?</string>
+    <string name="cancel">Annulla</string>
+    <string name="invalidUrl">L\'URL inserito non è valido</string>
+    <string name="stringTooLong">La stringa è troppo lunga</string>
+    <string name="save">Salva</string>
+    <string name="editText">Modifica Testo</string>
+    <string name="editUrl">Modifica URL</string>
+    <string name="noZeroButtons">Non puoi avere zero pulsanti!</string>
+    <string name="noAppAvailable">Nessuna applicazione disponibile per aprire il link</string>
+    <string name="openWith">Apri con</string>
+    <string name="button">"Pulsante "</string>
+    <string name="exampleDomain">http://example.com</string>
+    <string name="cannotMoveUp">Non puoi spostare in su questo pulsante!</string>
+    <string name="cannotMoveDown">Non puoi spostare in giù questo pulsante!</string>
 </resources>
